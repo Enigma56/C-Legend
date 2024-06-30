@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gcc -pedantic -Wall -Wextra -Wwrite-strings -g3 src/*.c -o legend -lreadline
