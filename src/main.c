@@ -10,7 +10,7 @@ int main(void)
     bool gameRunning = true;
     char *line;
     do {
-    line = readline("> ");
+    line = readline(">> ");
     printf("%s\n", line);
 
     //TODO: Learn to parse commands
